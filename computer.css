@@ -116,8 +116,12 @@ aside{
     }
     .left-enter-animation {
         animation: left-enter 0.3s 1;
-        animation-delay: 0.5s;
+        animation-delay: 0.3s;
       }
+    .right-enter-animation {
+        animation: right-enter 0.3s 1;
+        animation-delay: 0.3s;
+    }
   }
   
 @keyframes fading {
@@ -138,6 +142,14 @@ aside{
 	}
 }
 
+@keyframes right-enter {
+	0% {
+		margin-left : 60%;
+	}
+	100% {
+		margin-left : 0%;
+	}
+}
 
 .fade:not(.show) {
     opacity: 1;

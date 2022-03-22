@@ -109,6 +109,10 @@ aside{
         animation: left-enter 0.3s 1;
         animation-delay: 0.5s;
       }
+      .right-enter-animation {
+        animation: right-enter 0.3s 1;
+        animation-delay: 0.5s;
+      }
   }
   
 @keyframes fading {

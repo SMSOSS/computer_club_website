@@ -4,9 +4,13 @@ const observer = new IntersectionObserver(entries => {
         var animation = 'fade-animation';
         var name = '.fade';
     }
-    if (entry.target.className.includes("left-enter-wrapper",0) == true){
+    else if (entry.target.className.includes("left-enter-wrapper",0) == true){
         var animation = 'left-enter-animation';
         var name = '.left-enter';
+    }
+    else if (entry.target.className.includes("right-enter-wrapper",0) == true){
+        var animation = 'right-enter-animation';
+        var name = '.right-enter';
     }
 
     const element = entry.target.querySelector(name);
@@ -29,3 +33,5 @@ observer.observe(document.querySelector('.left-enter-wrapper-3'));
 observer.observe(document.querySelector('.left-enter-wrapper-4'));
 observer.observe(document.querySelector('.left-enter-wrapper-5'));
 observer.observe(document.querySelector('.left-enter-wrapper-6'));
+observer.observe(document.querySelector('.right-enter-wrapper-1'));
+observer.observe(document.querySelector('.right-enter-wrapper-2'));
