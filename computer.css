@@ -122,6 +122,10 @@ aside{
         animation: right-enter 0.3s 1;
         animation-delay: 0.3s;
     }
+    .width-animation {
+        animation: width 0.3s 1;
+        animation-delay: 0.3s;
+      }
   }
   
 @keyframes fading {
@@ -148,6 +152,15 @@ aside{
 	}
 	100% {
 		margin-left : 0%;
+	}
+}
+
+@keyframes width {
+	0% {
+		width : 40%;
+	}
+	100% {
+		width : 80%;
 	}
 }
 

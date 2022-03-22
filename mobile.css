@@ -107,11 +107,15 @@ aside{
     }
     .left-enter-animation {
         animation: left-enter 0.3s 1;
-        animation-delay: 0.5s;
+        animation-delay: 0.3s;
       }
-      .right-enter-animation {
+    .right-enter-animation {
         animation: right-enter 0.3s 1;
-        animation-delay: 0.5s;
+        animation-delay: 0.3s;
+    }
+    .width-animation {
+        animation: width 0.3s 1;
+        animation-delay: 0.3s;
       }
   }
   
@@ -130,6 +134,24 @@ aside{
 	}
 	100% {
 		margin-left : 0%;
+	}
+}
+
+@keyframes right-enter {
+	0% {
+		margin-left : 60%;
+	}
+	100% {
+		margin-left : 0%;
+	}
+}
+
+@keyframes width {
+	0% {
+		width : 40%;
+	}
+	100% {
+		width : 80%;
 	}
 }
 

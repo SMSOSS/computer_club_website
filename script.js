@@ -12,6 +12,10 @@ const observer = new IntersectionObserver(entries => {
         var animation = 'right-enter-animation';
         var name = '.right-enter';
     }
+    else if (entry.target.className.includes("width-wrapper",0) == true){
+        var animation = 'width-animation';
+        var name = '.width';
+    }
 
     const element = entry.target.querySelector(name);
 
@@ -35,3 +39,4 @@ observer.observe(document.querySelector('.left-enter-wrapper-5'));
 observer.observe(document.querySelector('.left-enter-wrapper-6'));
 observer.observe(document.querySelector('.right-enter-wrapper-1'));
 observer.observe(document.querySelector('.right-enter-wrapper-2'));
+observer.observe(document.querySelector('.width-wrapper-1'));
