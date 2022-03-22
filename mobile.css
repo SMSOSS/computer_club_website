@@ -105,13 +105,25 @@ aside{
     .fade-animation {
       animation: fading 3s 1;
     }
+    .left-enter-animation {
+        animation: left-enter 0.3s 1;
+      }
   }
   
-  @keyframes fading {
+@keyframes fading {
       0% {
           opacity: 0;
       }
       100% {
           opacity: 1;
       }
-  }
+}
+
+@keyframes left-enter {
+	0% {
+		margin-left : -20%;
+	}
+	100% {
+		margin-left : 0%;
+	}
+}
