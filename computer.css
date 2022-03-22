@@ -110,6 +110,10 @@ aside{
     color:#000000;
 }   
 
+#title{
+    padding-top:20%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .fade-animation {
       animation: fading 3s 1;

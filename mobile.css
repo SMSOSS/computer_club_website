@@ -101,6 +101,11 @@ aside{
     height : 20%;
 }
 
+#title{
+    padding-top:10%;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
     .fade-animation {
       animation: fading 3s 1;
