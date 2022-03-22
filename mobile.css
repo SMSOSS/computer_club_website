@@ -128,3 +128,7 @@ aside{
 		margin-left : 0%;
 	}
 }
+
+.fade:not(.show) {
+    opacity: 1;
+}
