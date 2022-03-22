@@ -112,7 +112,7 @@ aside{
 
 @media (prefers-reduced-motion: no-preference) {
     .fade-animation {
-      animation: fading 3s 3;
+      animation: fading 3s 1;
     }
   }
   
