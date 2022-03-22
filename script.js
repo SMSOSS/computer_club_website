@@ -23,3 +23,9 @@ const observer = new IntersectionObserver(entries => {
 
 observer.observe(document.querySelector('.fade-wrapper-1'));
 observer.observe(document.querySelector('.fade-wrapper-2'));
+observer.observe(document.querySelector('.left-enter-wrapper-1'));
+observer.observe(document.querySelector('.left-enter-wrapper-2'));
+observer.observe(document.querySelector('.left-enter-wrapper-3'));
+observer.observe(document.querySelector('.left-enter-wrapper-4'));
+observer.observe(document.querySelector('.left-enter-wrapper-5'));
+observer.observe(document.querySelector('.left-enter-wrapper-6'));
