@@ -1,0 +1,111 @@
+html, body {
+    width: 100%;
+    height : 100%;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    position: relative;
+}
+
+header {
+    width : 100%;
+    height : 100%;
+    text-align: center;
+}
+
+img {
+    max-width:80%;
+    max-height:80%;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.col-sm-6{
+    padding-top: 2%;
+}
+
+article{
+    width : 100%;
+    height : 120%;
+    padding-bottom: 20%;
+}
+
+.username{
+    font-weight: 300;
+}
+
+
+.links{
+      
+    margin-left:30%;
+    margin-right: 30%;
+    width : 40%;
+}
+
+.links2{
+    margin-left:10%;
+    margin-right: 10%;
+    background: #F5F5F5;
+    border-radius: 40px;
+    padding : 5%;
+}
+
+
+.row{
+    margin-top: 3%;
+}
+
+.card{
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+#blog_photo{
+    border-radius: 20px;
+    margin-left: 5%;
+}
+
+.card_header{
+    border-bottom: 0ch;
+}
+
+aside{
+    right: 0%;
+    top:40%;
+    position: fixed;
+    border: 0ch;
+    
+}
+
+.list-group-item{
+    border: 0ch;
+    background-color:transparent;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+.list-group-item.active{
+    background-color:#000000;
+    box-sizing: border-box;
+}
+
+.list-group-item{
+    background-color: transparent;
+    display: inline-block;
+    border : 1px solid #424242;
+}
+
+.list-group{
+    border-radius: 0%;
+}
+
+.card{
+    padding: 10%;
+}
+
+.carousel-control-next{
+    color:#000000;
+}
