@@ -108,4 +108,19 @@ aside{
 
 .carousel-control-next{
     color:#000000;
-}
+}   
+
+@media (prefers-reduced-motion: no-preference) {
+    .fade-animation {
+      animation: fading 3s 3;
+    }
+  }
+  
+  @keyframes fading {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }

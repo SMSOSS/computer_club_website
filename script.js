@@ -1,15 +1,17 @@
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
-    const square = entry.target.querySelector('.square');
+    const square = entry.target.querySelector('.header');
 
     if (entry.isIntersecting) {
-      square.classList.add('square-animation');
+      square.classList.add('fade-animation');
 	  return; // if we added the class, exit the function
     }
 
     // We're not intersecting, so remove the class!
-    square.classList.remove('square-animation');
+    square.classList.remove('fade-animation');
   });
 });
 
-observer.observe(document.querySelector('.square-wrapper'));
+observer.observe(document.querySelector('.header-wrapper-1'));
+
+observer.observe(document.querySelector('.header-wrapper-2'));
