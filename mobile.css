@@ -111,6 +111,11 @@ a{
 }
 
 
+.col-3 {
+    margin-top: 4%;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
     .fade-animation {
       animation: fading 3s 1;
