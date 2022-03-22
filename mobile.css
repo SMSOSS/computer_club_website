@@ -10,6 +10,7 @@ html, body {
 header {
     width : 100%;
     text-align: center;
+    height : 50%;
 }
 
 img {
@@ -102,7 +103,7 @@ aside{
 }
 
 #title{
-    padding-top:10%;
+    padding-top:30%;
 }
 
 
