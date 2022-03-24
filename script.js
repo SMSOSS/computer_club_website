@@ -43,3 +43,5 @@ observer.observe(document.querySelector('.right-enter-wrapper-1'));
 observer.observe(document.querySelector('.right-enter-wrapper-3'));
 observer.observe(document.querySelector('.right-enter-wrapper-4'));
 observer.observe(document.querySelector('.width-wrapper-1'));
+
+
