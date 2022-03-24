@@ -1,5 +1,5 @@
 <center> 
-<h1> sms Computer club website </h1> 
+<h1> sms Computer club website [UNOFFICIAL] </h1> 
 <h5> Persistent Perfection </h5>
 </center>
 
